@@ -1,9 +1,11 @@
-name: "GIthub actions lab test"
-  on:
+name: GIthub actions lab test
+
+on:
     push:
       branches: ["main"]
     pull_request:
       branches: ["main"] 
+
 jobs: 
   build:
     runs-on: ubuntu-latest
