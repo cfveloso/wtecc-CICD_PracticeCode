@@ -1,4 +1,4 @@
-name: GIthub actions lab test
+name: "GIthub actions lab test"
   on:
     push:
       branches: ["main"]
